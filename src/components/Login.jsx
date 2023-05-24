@@ -30,7 +30,7 @@ const Login = () => {
         <Form>
           <div>
             <Link to="/signinotp">
-              <Button variant="secondary">Sign In with OTP</Button>
+              <Button variant="primary">Sign In with OTP</Button>
             </Link>
           </div>
         </Form>

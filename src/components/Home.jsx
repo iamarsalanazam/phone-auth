@@ -17,13 +17,15 @@ const Home = () => {
   return (
     <>
       <div className="p-4 box mt-3 text-center">
-        Hello Welcome <br />
+        <h1>
+          Welcome Home <br />
+        </h1>
         {user && user.email}
-      </div>
-      <div className="d-grid gap-2">
-        <Button variant="primary" onClick={handleLogout}>
-          Log out
-        </Button>
+        <div className="d-grid gap-2 mt-4">
+          <Button variant="danger" onClick={handleLogout}>
+            Log out
+          </Button>
+        </div>
       </div>
     </>
   );
