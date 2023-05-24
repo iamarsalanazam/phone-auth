@@ -10,7 +10,7 @@ import SignInOtp from "./components/SignInOtp";
 
 function App() {
   return (
-    <Container style={{ width: "800px" }}>
+    <Container>
       <Row>
         <Col>
           <UserAuthContextProvider>
