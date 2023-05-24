@@ -57,7 +57,7 @@ function SignInOtp() {
           <div className="d-flex mt-3">
             <div className="mr-3">
               <Link to="/">
-                <Button variant="primary" type="Submit" className="">
+                <Button variant="primary" type="Submit" className="mr-3">
                   Cancel
                 </Button>
               </Link>
