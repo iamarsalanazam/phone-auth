@@ -24,7 +24,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="p-4 box container">
+      <div className="p-4 box">
         <h2 className="mb-3">Firebase Auth Login</h2>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form>
