@@ -1,11 +1,12 @@
 body {
-  background-color: #1c2c4c !important;
+  background-color: #7FC7AF !important;
   /* display: flex;
   justify-content: center;
   align-content: center;
   width: 100%;
   align-items: center; */
   height: 100vh;
+  margin: top 100px;
 
 }
 
