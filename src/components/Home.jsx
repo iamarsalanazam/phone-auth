@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router";
 import { useUserAuth } from "../context/UserAuthContext";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const { logOut, user } = useUserAuth();
@@ -27,6 +28,9 @@ const Home = () => {
           </Button>
         </div>
       </div>
+      <Link to="/chatbox">
+        <Button>Chat Box</Button>
+      </Link>
     </>
   );
 };

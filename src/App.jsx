@@ -7,6 +7,7 @@ import Login from "./components/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { UserAuthContextProvider } from "./context/UserAuthContext";
 import SignInOtp from "./components/SignInOtp";
+import ChatBox from "./components/ChatBox";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               />
               <Route path="/" element={<Login />} />
               <Route path="/signinotp" element={<SignInOtp />} />
+              <Route path="/chatbox" element={<ChatBox />} />
             </Routes>
           </UserAuthContextProvider>
         </Col>
